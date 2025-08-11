@@ -1,0 +1,87 @@
+hr{
+    margin: auto;
+    width: 70%;
+    border: 2px solid var(--cor2);
+    border-radius: 15px;
+}
+
+
+p#inform1{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-family: var(--font1);
+    font-size: var(--paragrafo2);
+    color: var(--cor1);    
+}
+
+section{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section a{
+/* Aqui tem nada ainda */
+}
+
+section a:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+section a#caixa1 > div{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+/* Adicionando mais coisas */
+
+    background: linear-gradient(-45deg, #4158d8, #24d9f1, #0dccee, #5c94e9);
+    background-size: 400% 400%;
+    animation: bg 12s ease infinite;
+
+    border-radius: 15px;
+    width: 85%;
+    height: 300px;
+
+/* Adicionando Estilos */
+
+    font-family: var(--font1);
+    font-size: var(--paragrafo1);
+}
+
+section a#caixa1 div p{
+    width: 50%;
+}
+
+section a#caixa1 > div img{
+    width: 300px;
+    height: 300px;
+}
+
+section a#caixa1 > div img#img-robo-esteira{
+    width: 200px;
+    height: 200px;
+    scale: 1.2;
+}
+
+
+section a#caixa1 > div img:hover{
+    filter: drop-shadow(0 0 10px var(--cor1));
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+
+@media screen and (max-width: 1200px) {
+    section a#caixa1 > div{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+    }
+}

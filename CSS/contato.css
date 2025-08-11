@@ -1,0 +1,95 @@
+div#informações{
+    margin: auto;
+    text-align: center;
+    font-family: var(--font1);
+    font-size: var(--titulo1);
+
+
+    background-color: var(--cor2);
+
+}
+
+div#formulario{
+    margin: auto;
+    text-align: center;
+    font-family: var(--font1);
+    font-size: var(--paragrafo4);
+}
+
+
+/* Contato */
+
+ section#contato{
+    text-align: center;
+    font-family: Bebas Neue;
+}
+
+section#contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    width: 45%;
+    border-radius: 25px;
+    font-family: Bebas Neue;
+    background-color: var(--cor2);
+    margin: auto;
+}
+
+section#contato h2{
+    color: #f5f5f5;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+ 
+section#contato form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label{
+    color: #f5f5f5;
+    font-size: 21px;
+    margin-bottom: 4px;
+}
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+form input:focus{
+    border-radius: 16px;
+}
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+form textarea:focus{
+    border-radius: 16px;
+}
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 1s;
+    border-radius: 5px;
+}
+form button:hover{
+    background: #f5f5f5;
+    color: #0dccee;
+    border-radius: 16px;
+}

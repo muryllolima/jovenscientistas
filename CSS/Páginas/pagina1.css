@@ -1,0 +1,54 @@
+
+
+hr{
+    margin: auto;
+    width: 70%;
+    border: 2px solid var(--cor2);
+    border-radius: 15px;
+}
+
+section#informações{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+/* Estilo para os itens de informação */
+
+    font-family: var(--font1);
+    font-size: var(--paragrafo1);
+}
+
+section#informações img{
+    width: 400px;
+    height: 400px;
+}
+
+
+div#sobre1{
+    text-align: center;
+}
+
+div#sobre1 h2{
+    font-family: var(--font1);
+    font-size: var(--titulo1);
+    color: var(--cor1);
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+div#sobre1 p{
+    margin: auto;
+    font-family: var(--font4);
+    font-size: var(--paragrafo1);
+    color: var(--cor4);
+    width: 70%;
+}
+
+div#sobre a{
+    text-decoration: none;
+    font-family: var(--font1);
+    color: var(--cor2);
+}

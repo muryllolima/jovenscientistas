@@ -1,0 +1,66 @@
+hr{
+    margin: auto;
+    width: 70%;
+    border: 2px solid var(--cor2);
+    border-radius: 15px;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+section div#caixa1{
+    width: 50%;
+    font-family: var(--font1);
+    font-size: var(--paragrafo1);
+}
+
+section div#caixaimg1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+section div#caixaimg1 img{
+    border-radius: 15px;
+    scale: .99;
+}
+
+section div#caixaimg1 img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+section div#caixa2{
+    width: 50%;
+    font-family: var(--font1);
+    font-size: var(--paragrafo1);
+}
+
+section div#caixa3{
+    width: 50%;
+    font-family: var(--font1);
+    font-size: var(--paragrafo1);
+}
+
+header > nav > ul > li#projeto{
+    color: white;
+    border-radius: 15px;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+section div#caixaimg1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+}

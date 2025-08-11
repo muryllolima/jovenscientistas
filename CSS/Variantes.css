@@ -1,0 +1,27 @@
+:root{
+    --cor1: #000000;
+    --cor2: #06a0dd;
+    --cor3: #f8f9fa;
+    --cor4: #212529;
+
+    --font1: 'Oswald', sans-serif;
+    --font2: 'Roboto', sans-serif;
+    --font3: 'Open Sans', sans-serif;
+    --font4: 'Lato', sans-serif;
+    --font5: 'Montserrat', sans-serif;
+    --font6: 'Raleway', sans-serif;
+    --font7: 'Poppins', sans-serif;
+    --font8: 'Boldonse', sans-serif;
+
+    --titulo1 : 28px;
+    --titulo2 : 35px;
+    --titulo3 : 43px;
+    --titulo4 : 50px;
+    --titulo5 : 60px;
+
+    --paragrafo1 : 20px;
+    --paragrafo2 : 22px;
+    --paragrafo3 : 24px;
+    --paragrafo4 : 26px;
+
+}

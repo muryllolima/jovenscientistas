@@ -1,0 +1,13 @@
+div#nd {
+    margin: auto;
+    text-align: center;
+    font-family: var(--font1);
+    font-size: var(--titulo1);
+}
+
+div#nd img {
+    margin: auto;
+    height: auto;
+    width: 50%;
+    border-radius: 15px;
+}
